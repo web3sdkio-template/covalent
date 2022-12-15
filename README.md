@@ -3,7 +3,7 @@
 This example shows you how to fetch indexed NFT information about a wallet using [Covalent](https://www.covalenthq.com).
 
 It loads all of a user's owned tokens by making an API request to the [Get token balances for address](https://www.covalenthq.com/docs/api/#/0/Get%20token%20balances%20for%20address/USD/1) endpoint. Using web3sdkio's React SDK, we fetch the metadata about each ERC-721 NFT and display it in a list using the
-[Web3sdkioNftMedia](https://portal.web3sdk.io/react/react.web3sdkionftmedia) component.
+[Web3sdkioNftMedia](https://docs.web3sdk.io/react/react.web3sdkionftmedia) component.
 
 ## Tools:
 
@@ -136,7 +136,7 @@ Firstly, we map over the different kinds of tokens returned from the API endpoin
 }
 ```
 
-The `NftCardContainer` component uses the React SDK's [MediaRenderer](https://portal.web3sdk.io/react/react.mediarenderer) component to resolve the NFT's image from IPFS and display it:
+The `NftCardContainer` component uses the React SDK's [MediaRenderer](https://docs.web3sdk.io/react/react.mediarenderer) component to resolve the NFT's image from IPFS and display it:
 
 ```jsx
 <MediaRenderer
@@ -148,4 +148,4 @@ The `NftCardContainer` component uses the React SDK's [MediaRenderer](https://po
 
 ## Join our Discord!
 
-For any questions, suggestions, join our discord at [https://discord.gg/web3sdkio](https://discord.gg/web3sdkio).
+For any questions, suggestions, join our discord at [https://discord.gg/n33UhsfUKB](https://discord.gg/n33UhsfUKB).

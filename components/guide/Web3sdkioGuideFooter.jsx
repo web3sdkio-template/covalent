@@ -17,7 +17,7 @@ export default function Web3sdkioGuideFooter() {
         }}
         role="button"
         onClick={() =>
-          window.open("https://github.com/web3sdkio-example/covalent", "_blank")
+          window.open("https://github.com/web3sdkio-template/covalent", "_blank")
         }
       />
 
@@ -36,7 +36,7 @@ export default function Web3sdkioGuideFooter() {
           style={{ cursor: "pointer" }}
           onClick={() =>
             window.open(
-              "https://github.com/web3sdkio-example/covalent",
+              "https://github.com/web3sdkio-template/covalent",
               "_blank"
             )
           }
